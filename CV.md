@@ -1,17 +1,17 @@
-->**CURRICULUM VITAE**<-
+**CURRICULUM VITAE**
 =======
 
-*Persoonlijke Gegevens
----------- 						----------
-Naam : 						Angel Rousev
-Adres:						Van der Sluysstraat 148
-Woonplaats:					3033SR Rotterdam
-Telefoon:						06-48469469
-E-mailadres:					Ev_@live.nl
-Geboortedatum:				08-04-1991
-Geboorteplaats:				Kiëv
-Nationaliteit:					Oekraïense
-Rijbewijs:					B
+*Persoonlijke Gegevens*
+---------- 	
+Naam : Angel Rousev
+Adres: Van der Sluysstraat 148
+Woonplaats: 3033SR Rotterdam
+Telefoon: 06-48469469
+E-mailadres: Ev_@live.nl
+Geboortedatum: 08-04-1991
+Geboorteplaats:	Kiëv
+Nationaliteit:	Oekraïense
+Rijbewijs: B
 
 
 ##**Werkervaring**
