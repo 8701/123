@@ -301,24 +301,21 @@ Therefore , the parameter governing the speed of convergence is  $Î»$ .</p>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">Filename: solow.py</span>
-<span class="sd">Reference: http://quant-econ.net/py/python_oop.html</span>
+<span class="sd">Solow model convergence</span>
 <span class="sd">&quot;&quot;&quot;</span>
 <span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">division</span>  
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 
 <span class="k">class</span> <span class="nc">Solow</span><span class="p">:</span>
-    <span class="sd">r&quot;&quot;&quot;</span>
-<span class="sd">    Implements the Solow growth model with update rule</span>
-
-<span class="sd">    .. math::</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    </span>
 <span class="sd">        k_{t+1} = \frac{s z k^{\alpha}_t}{1 + n}  + k_t \frac{1 + d}{1 + n}</span>
 <span class="sd">    </span>
 <span class="sd">    &quot;&quot;&quot;</span>
 
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n</span><span class="p">,</span> <span class="n">s</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">alpha</span><span class="p">,</span> <span class="n">z</span><span class="p">,</span> <span class="n">k</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot; </span>
-<span class="sd">        The Solow model with Cobb-Douglas production function.  </span>
+<span class="sd">        The Solow model with a standard Cobb-Douglas production function.  </span>
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">n</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">s</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">d</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">alpha</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">z</span> <span class="o">=</span> <span class="n">n</span><span class="p">,</span> <span class="n">s</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">alpha</span><span class="p">,</span> <span class="n">z</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">k</span> <span class="o">=</span> <span class="n">k</span>
@@ -2152,9 +2149,10 @@ AABJRU5ErkJggg==
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h2><p>The Solow model allows economists to view capital accumulation and the technological progress overtone in a framework which is easy to track. If a country is not present in the environment of Ak, then no technological progress would exist according to the model 
-The model illustrates steady state levels output and capital within the parameters. When savings rates increase, the steady state output increased, causing the economy to grow into a new steady state. When this point is reached growth will decline and eventually stop. Therefore the Solow model illustrates that a factor, witch an increase over time, causes the growth. An increase in technology or population growth are one of these factors. Capital accumulation is determined by the savings rate, population growth and the rate of depreciation. Output growth, per capita is exogenously determined by technological progress.</p>
-<p>When applied to the targeted county in the real world, a number of things are bound to happen. One if these events takes place if growth due to capital accumulation occurs, growth would be very strong when countries first accumulate capital. This growth will eventually slow down as shown similar in our graphs. This applied to for example Asian countries in the 50â€™s and 60â€™s. Counties like these also converge in output per capita. This will lead counties like these to catch up to developed countries where all countries have reached a steady state, assuming the production function is similar. However these assumptions do not always hold as there are exemptions in the model as seen throughout history. Less developed Asian countries are actually seen to fall behind developing countries, unlike the modelâ€™s prediction which suggests that they will catch up. Another example can be found in the Sovjet Union under Josef Stalin. Compared to the United States, the Sovjet Union had higher saving due to its lower level of capital. This would suggest that the Sovjet Union would catch up, according to the model. It did not. These event might be explained by other factors such as productivity increase, but it illustrates the limitations of the Solow model.</p>
+<h2 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h2><p>The model clealy shows that, poor economy will grow faster than the rich economy.The Solow model allows economists to view capital accumulation and the technological progress over time in a framework which is easy to track.</p>
+<p>The model also predicts that countries converge to the same steady state. In other words, the model predicts unconditional convergence in the sense that a lower initial savings rate generates a faster growth rate once we control for determinants of the steady state.</p>
+<p>The model illustrates the steady state levels of  output and capital within the parameters. When savings rates increase, the steady state output increases, causing the economy to grow into a new steady state. When this point is reached growth will decline and eventually stop. Therefore the Solow model illustrates that a factor, which will increase over time and spur growth. An increase in technology or population growth are one of these factors. Capital accumulation is determined by the savings rate, population growth and the rate of depreciation. Output growth, per capita is exogenously determined by technological progress.</p>
+<p>When applied to the targeted countries in the real world, a number of things are bound to happen. One if these events takes place if growth due to capital accumulation occurs.Growth would be very strong when countries first accumulate capital. This growth will eventually slow down as shown similar in our graphs. This applied to for example Asian countries in the 50â€™s and 60â€™s. Counties like these also converge in output per capita. This will lead counties like these to catch up to developed countries where all countries have reached a steady state, assuming the production function is similar. However these assumptions do not always hold as there are exemptions in the model as seen throughout history. Less developed Asian countries are actually seen to fall behind developing countries, unlike the modelâ€™s prediction which suggests that they will catch up. Another example can be found in the Sovjet Union under Josef Stalin. Compared to the United States, the Sovjet Union had higher saving due to its lower level of capital. This would suggest that the Sovjet Union would catch up, according to the model. It did not. These event might be explained by other factors such as productivity increase, but it illustrates the limitations of the Solow model.</p>
 
 </div>
 </div>
